@@ -10,7 +10,7 @@ WANT TO LEARN MORE?? 🧪
 # 🐸🌿 POISON HERBS 💀
 
 <p align="center">
-  <a href="https://kiyoshimizushizuku.github.io/portfolio/">
+  <a href="https://kiyoshimizushizuku.github.io/poisonquinn/">
     <img src="https://img.shields.io/badge/🐸_POISON_IS_BEING_SERVED-40A070?style=for-the-badge&logo=databricks&logoColor=white" alt="POISON IS BEING SERVED">
   </a>
 </p>
