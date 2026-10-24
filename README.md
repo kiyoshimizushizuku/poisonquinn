@@ -9,7 +9,7 @@ WANT TO LEARN MORE??
 # 🌿POISON HERBS
 
 <p align="center">
-  <a href="YOUR_LIVE_WEBSITE_URL_HERE">
+  <a href="POISON IS BEING SERVED">
     <img src="https://img.shields.io/badge/🚀_View_Live_Portfolio-00F59B?style=for-the-badge&logo=safari&logoColor=black" alt="View Live Portfolio">
   </a>
 </p>
