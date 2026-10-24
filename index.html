@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somaia Islam Zaara 🧪 Portfolio</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for Apothecary Editorial Look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h2 class="logo">Zaara<span>.🌿</span></h2>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#academics">Academics</a></li>
+                <li><a href="#avoid">Avoid</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#hobbies">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="about" class="hero">
+        <div class="profile-container">
+            <img src="https://media.tenor.com/JFwo067mLKIAAAAM/maomao-apothecary-diaries.gif" alt="Maomao / Zaara" class="profile-pic">
+        </div>
+        <h1>Hi, I'm <span>Somaia Islam Zaara</span> 🌿</h1>
+        <p class="tagline">Software Engineering with AI 🤖 | Cybersecurity 🐍 | Programming Languages 🧪</p>
+        <p class="quote">"Unlearning the noise, decoding the logic." 🍃</p>
+    </section>
+
+    <!-- Core Focus & Skills -->
+    <section id="skills" class="skills">
+        <h2><i class="fa-solid fa-flask-vial"></i> Core Focus & Skills 📜</h2>
+        <div class="skill-tags">
+            <span><i class="fa-brands fa-python"></i> Python</span>
+            <span><i class="fa-solid fa-terminal"></i> C++</span>
+            <span><i class="fa-brands fa-java"></i> Java</span>
+            <span><i class="fa-solid fa-biohazard"></i> Cybersecurity</span>
+            <span><i class="fa-solid fa-brain"></i> AI & ML</span>
+            <span><i class="fa-brands fa-linux"></i> Linux</span>
+        </div>
+    </section>
+
+    <!-- Academics & Semester Grades -->
+    <section id="academics" class="academics">
+        <h2><i class="fa-solid fa-scroll"></i> Academics & Performance 📖</h2>
+        
+        <div class="academic-cards">
+            <!-- DIU -->
+            <div class="academic-card">
+                <h3>B.Sc. in Software Engineering 🎓</h3>
+                <p class="institution">
+                    <a href="https://daffodilvarsity.edu.bd/" target="_blank"><i class="fa-solid fa-globe"></i> Daffodil International University (DIU)</a>
+                </p>
+                <p class="student-meta">Batch: 48 • Student ID: 02426205341--- • Reg ID: 262-35-***</p>
+                
+                <div class="semester-details">
+                    <button class="toggle-btn" onclick="toggleDetails('sem1')">
+                        1st Semester Grade Sheet <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div id="sem1" class="details-content">
+                        <div class="result-summary">
+                            <p><strong>SGPA (Summer 2026, 262):</strong> <span class="perfect-score">4.00 / 4.00</span> 🍃</p>
+                            <p><strong>Total Completed Credits:</strong> 13.00</p>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="result-table">
+                                <thead>
+                                    <tr>
+                                        <th>Code</th>
+                                        <th>Course Title</th>
+                                        <th>Credit</th>
+                                        <th>Grade</th>
+                                        <th>GP</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>ENG 101</td>
+                                        <td>English I</td>
+                                        <td>3.00</td>
+                                        <td><span class="grade-badge">A+</span></td>
+                                        <td>4.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>BNS 101</td>
+                                        <td>Bangladesh Studies</td>
+                                        <td>3.00</td>
+                                        <td><span class="grade-badge">A+</span></td>
+                                        <td>4.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>SE 113</td>
+                                        <td>Introduction to Software Engineering</td>
+                                        <td>3.00</td>
+                                        <td><span class="grade-badge">A+</span></td>
+                                        <td>4.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>SE 111</td>
+                                        <td>Computer Fundamentals</td>
+                                        <td>3.00</td>
+                                        <td><span class="grade-badge">A+</span></td>
+                                        <td>4.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>SE 112</td>
+                                        <td>Computer Fundamentals Lab</td>
+                                        <td>1.00</td>
+                                        <td><span class="grade-badge">A+</span></td>
+                                        <td>4.00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <button class="toggle-btn pop-btn" onclick="openModal()">
+                        2nd Semester Status <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- MCSK -->
+            <div class="academic-card">
+                <h3>Higher Secondary / Secondary Education 🏫</h3>
+                <p class="institution">
+                    <a href="https://mcsk.edu.bd/" target="_blank"><i class="fa-solid fa-globe"></i> Military Collegiate School Khulna (MCSK)</a>
+                </p>
+            </div>
+
+            <!-- SCPSC -->
+            <div class="academic-card">
+                <h3>Schooling & College 🏛️</h3>
+                <p class="institution">
+                    <a href="https://scpsc.edu.bd/" target="_blank"><i class="fa-solid fa-globe"></i> Savar Cantonment Public School & College (SCPSC)</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Things I Avoid Section -->
+    <section id="avoid" class="avoid-section">
+        <h2><i class="fa-solid fa-vial-circle-check"></i> Things I Avoid 🧪</h2>
+        <div class="avoid-grid">
+            <div class="avoid-card">
+                <i class="fa-solid fa-comment-slash"></i>
+                <p>"Communication is totally not my thing."</p>
+            </div>
+            <div class="avoid-card">
+                <i class="fa-solid fa-face-rolling-eyes"></i>
+                <p>"Internal jokes avoid kori ami..."</p>
+            </div>
+            <div class="avoid-card">
+                <i class="fa-solid fa-phone-slash"></i>
+                <p>"Unnecessary phone calls that could have been an email (or better, silent telepathy)."</p>
+            </div>
+            <div class="avoid-card">
+                <i class="fa-solid fa-comments"></i>
+                <p>"Small talk when a simple 'okay' could end the conversation."</p>
+            </div>
+            <div class="avoid-card">
+                <i class="fa-solid fa-people-group"></i>
+                <p>"Group projects where 'teamwork' means doing everything alone at 3 AM."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2><i class="fa-solid fa-mortar-pestle"></i> Featured Projects 🕳️</h2>
+        <div class="no-projects-box">
+            <i class="fa-solid fa-spinner fa-spin"></i>
+            <p><strong>No projects yet.</strong> Currently brewing foundational concepts in AI, C++, and Cybersecurity. Exciting concoctions coming soon!</p>
+        </div>
+    </section>
+
+    <!-- Achievements & Participations -->
+    <section id="achievements" class="achievements">
+        <h2><i class="fa-solid fa-award"></i> Achievements & Contests 🏅</h2>
+        
+        <div class="achievement-category">
+            <h3><i class="fa-solid fa-medal"></i> Competitions & Awards</h3>
+            <ul class="achievement-list">
+                <li>
+                    <i class="fa-solid fa-crown"></i>
+                    <div>
+                        <h4>Champion (Senior Group) 🥇</h4>
+                        <p>Programming Competition</p>
+                    </div>
+                </li>
+                <li>
+                    <i class="fa-solid fa-seedling"></i>
+                    <div>
+                        <h4>1st Round Winner 🌿</h4>
+                        <p>FERY Organization — AI Software Making Competition</p>
+                    </div>
+                </li>
+                <li>
+                    <i class="fa-solid fa-user-astronaut"></i>
+                    <div>
+                        <h4>2nd Runner Up 🥉</h4>
+                        <p>GK & Astronomy Olympiad at MCSK</p>
+                    </div>
+                </li>
+                <li>
+                    <i class="fa-solid fa-square-root-variable"></i>
+                    <div>
+                        <h4>Regional Participant 📐</h4>
+                        <p>Math Olympiad (Regional Level)</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="achievement-category">
+            <h3><i class="fa-solid fa-person-running"></i> Athletics & Sports 🎯</h3>
+            <ul class="achievement-list">
+                <li>
+                    <i class="fa-solid fa-bullseye"></i>
+                    <div>
+                        <h4>Athletics Event Participation</h4>
+                        <p>Shot Put & Disc Throw Events</p>
+                    </div>
+                </li>
+                <li>
+                    <i class="fa-solid fa-volleyball"></i>
+                    <div>
+                        <h4>Outdoor Games & Sports</h4>
+                        <p>Volleyball & Basketball</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Interests & Hobbies -->
+    <section id="hobbies" class="hobbies">
+        <h2><i class="fa-solid fa-chess-board"></i> Interests & Hobbies ♟️</h2>
+        <div class="hobby-tags">
+            <span><i class="fa-solid fa-chess"></i> Chess</span>
+            <span><i class="fa-solid fa-puzzle-piece"></i> Puzzles</span>
+            <span><i class="fa-solid fa-border-all"></i> Sudoku</span>
+            <span><i class="fa-solid fa-mobile-retro"></i> Mobile Legends: Bang Bang (MLBB)</span>
+            <span><i class="fa-solid fa-person-dots-from-line"></i> Dancing</span>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2><i class="fa-solid fa-paper-plane"></i> Get In Touch ✉️</h2>
+        <p class="email-text">Email: <a href="mailto:atrytonehere806@gmail.com">atrytonehere806@gmail.com</a></p>
+        
+        <div class="social-icon-grid">
+            <a href="https://github.com/kiyoshimizushizuku" target="_blank" aria-label="GitHub" class="social-btn"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/somaia-islam-zaara-3516b3446?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" aria-label="LinkedIn" class="social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/_atrytn?psln=MXh4ZzJ1c2htaHcxYQ==" target="_blank" aria-label="Instagram" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/share/1E1RCTbnMf/" target="_blank" aria-label="Facebook" class="social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://pin.it/71Z2zweHb" target="_blank" aria-label="Pinterest" class="social-btn"><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href="https://discord.gg/k3rRw89U" target="_blank" aria-label="Discord" class="social-btn"><i class="fa-brands fa-discord"></i></a>
+            <!-- Inline SVG Vector for X Icon -->
+            <a href="https://x.com/atrytonehere" target="_blank" aria-label="X (Twitter)" class="social-btn">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+            </a>
+        </div>
+
+        <!-- Contact Me Personally Box -->
+        <div class="contact-form-card">
+            <h3><i class="fa-solid fa-message"></i> Contact Me Personally</h3>
+            <div class="input-group">
+                <label for="sender-name">Name:</label>
+                <input type="text" id="sender-name" placeholder="Your Name">
+            </div>
+            <div class="input-group">
+                <label for="sender-msg">Message:</label>
+                <textarea id="sender-msg" rows="3" placeholder="Type your message here..."></textarea>
+            </div>
+            <div class="btn-group">
+                <button type="button" onclick="sendToWhatsApp()" class="action-btn whatsapp-btn">
+                    <i class="fa-brands fa-whatsapp"></i> Send to WhatsApp
+                </button>
+                <button type="button" onclick="sendToSMS()" class="action-btn sms-btn">
+                    <i class="fa-solid fa-comment-sms"></i> Send SMS
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2nd Semester Modal -->
+    <div id="modal-overlay" class="modal-overlay" onclick="closeModal(event)">
+        <div class="modal-box">
+            <button class="close-btn" onclick="closeModalDirect()">&times;</button>
+            <div class="modal-header">
+                <i class="fa-solid fa-hourglass-half fa-spin"></i>
+                <h3>2nd Semester Status</h3>
+            </div>
+            <div class="modal-body">
+                <p class="status-badge">CURRENTLY ONGOING</p>
+                <p>Enrolled in 2nd Semester at Daffodil International University.</p>
+                <p class="note">🍃 Official grades are yet to be published. Currently focusing on Core Algorithms, Data Structures & Software Systems.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
