@@ -1,16 +1,17 @@
-# 🌿 Somaia Islam Zaara | Portfolio
+# 🌿 Somaia Islam Zaara | Portfolio 🧪🐸
 
-Software Engineering student at **Daffodil International University (DIU)** focusing on AI, Cybersecurity, and Core Programming.
+Software Engineering student at **Daffodil International University (DIU)** focusing on AI, Cybersecurity, and Core Programming. 🍃
 
 ---
-WANT TO LEARN MORE??
+WANT TO LEARN MORE?? 🧪
+
 <div align="center">
 
-# 🌿POISON HERBS
+# 🐸🌿 POISON HERBS 💀
 
 <p align="center">
-  <a href="POISON IS BEING SERVED">
-    <img src="https://img.shields.io/badge/🚀_Poison_is_being_served-00F59B?style=for-the-badge&logo=safari&logoColor=black" alt="POISON IS BEING SERVED">
+  <a href="YOUR_LIVE_WEBSITE_URL_HERE">
+    <img src="https://img.shields.io/badge/🐸_POISON_IS_BEING_SERVED-40A070?style=for-the-badge&logo=databricks&logoColor=white" alt="POISON IS BEING SERVED">
   </a>
 </p>
 
