@@ -10,7 +10,7 @@ WANT TO LEARN MORE??
 
 <p align="center">
   <a href="POISON IS BEING SERVED">
-    <img src="https://img.shields.io/badge/🚀_View_Live_Portfolio-00F59B?style=for-the-badge&logo=safari&logoColor=black" alt="View Live Portfolio">
+    <img src="https://img.shields.io/badge/🚀_Poison_is_being_served-00F59B?style=for-the-badge&logo=safari&logoColor=black" alt="POISON IS BEING SERVED">
   </a>
 </p>
 
