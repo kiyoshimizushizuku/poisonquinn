@@ -3,38 +3,17 @@
 Software Engineering student at **Daffodil International University (DIU)** focusing on AI, Cybersecurity, and Core Programming.
 
 ---
+WANT TO LEARN MORE??
+<div align="center">
 
-## 🧪 About Me
+# 🌿POISON HERBS
 
-> *"Unlearning the noise, decoding the logic."* 🍃
+<p align="center">
+  <a href="YOUR_LIVE_WEBSITE_URL_HERE">
+    <img src="https://img.shields.io/badge/🚀_View_Live_Portfolio-00F59B?style=for-the-badge&logo=safari&logoColor=black" alt="View Live Portfolio">
+  </a>
+</p>
 
-- 🎓 **Education:** B.Sc. in Software Engineering, Daffodil International University (DIU)
-- 🎓 **Past Academic Background:** Military Collegiate School Khulna (MCSK) & Savar Cantonment Public School & College (SCPSC)
-- 🔬 **Core Interests:** Artificial Intelligence, Cybersecurity, C++, Python, Linux
-
----
-
-## 📜 Academics & Performance
-
-- **1st Semester SGPA:** `4.00 / 4.00` 🍃
-- **2nd Semester:** Currently Ongoing
+</div>
 
 ---
-
-## 🏅 Achievements & Contests
-
-- 🥇 **Champion (Senior Group)** – Programming Competition
-- 🌿 **1st Round Winner** – FERY Organization AI Software Making Competition
-- 🥉 **2nd Runner Up** – GK & Astronomy Olympiad at MCSK
-- 📐 **Regional Participant** – Math Olympiad
-
----
-
-## ✉️ Get In Touch
-
-- **Email:** [atrytonehere806@gmail.com](mailto:atrytonehere806@gmail.com)
-- **LinkedIn:** [Somaia Islam Zaara](https://www.linkedin.com/in/somaia-islam-zaara-3516b3446)
-- **GitHub:** [@kiyoshimizushizuku](https://github.com/kiyoshimizushizuku)
-- **Instagram:** [@_atrytn](https://www.instagram.com/_atrytn?psln=MXh4ZzJ1c2htaHcxYQ==)
-- **X (Twitter):** [@atrytonehere](https://x.com/atrytonehere)
-- **WhatsApp / Direct Msg:** Reach out directly on my portfolio site!
