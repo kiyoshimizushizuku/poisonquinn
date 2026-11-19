@@ -1,0 +1,46 @@
+<svg width="520" height="84" viewBox="0 0 520 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGlow" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0%" stop-color="#7b2cbf" stop-opacity="0.55" />
+      <stop offset="65%" stop-color="#240046" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#09050e" stop-opacity="0.95" />
+    </radialGradient>
+
+    <linearGradient id="glassBody" x1="0" y1="0" x2="520" y2="84" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#e0aaff" stop-opacity="0.22" />
+      <stop offset="50%" stop-color="#5a189a" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#140724" stop-opacity="0.45" />
+    </linearGradient>
+
+    <linearGradient id="rimGrad" x1="0" y1="0" x2="520" y2="84" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f3d5ff" stop-opacity="0.9" />
+      <stop offset="55%" stop-color="#c77dff" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#e9c46a" stop-opacity="0.85" />
+    </linearGradient>
+
+    <linearGradient id="topGloss" x1="260" y1="4" x2="260" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.26" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.01" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="520" height="84" rx="22" fill="#07040c" />
+  <ellipse cx="260" cy="42" rx="245" ry="38" fill="url(#bgGlow)" />
+  <rect x="6" y="5" width="508" height="74" rx="19" fill="url(#glassBody)" stroke="url(#rimGrad)" stroke-width="1.6" />
+  <path d="M9 24C9 14.6 16.6 7 26 7H494C503.4 7 511 14.6 511 24V38C390 29 130 29 9 40V24Z" fill="url(#topGloss)" />
+
+  <!-- Jinshi Crescent Moon + Gold Dot -->
+  <path d="M44 26C36.8 26 31 31.8 31 39C31 46.2 36.8 52 44 52C47.2 52 50.1 50.8 52.4 48.9C47.1 48.3 43 43.8 43 38.5C43 33.2 47.1 28.7 52.4 28.1C50.1 26.2 47.2 26 44 26Z" fill="#f3d5ff" />
+  <circle cx="55" cy="27" r="2.2" fill="#e9c46a" />
+
+  <!-- 4-Point Sparkle -->
+  <path d="M476 28L478.8 36.2L487 39L478.8 41.8L476 50L473.2 41.8L465 39L473.2 36.2L476 28Z" fill="#d8b4fe" />
+
+  <!-- Title & Sarcastic Tagline -->
+  <text x="260" y="37" fill="#faf5ff" font-family="Georgia, &#39;Times New Roman&#39;, serif" font-size="16" font-weight="700" letter-spacing="3.5" text-anchor="middle">
+    ENTER POISONQUINN
+  </text>
+  <text x="260" y="58" fill="#e9d8fd" font-family="Georgia, serif" font-size="12" font-style="italic" letter-spacing="0.4" text-anchor="middle">
+    "Click it. Pure aesthetic, zero small talk."
+  </text>
+</svg>
